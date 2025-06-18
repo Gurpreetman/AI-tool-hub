@@ -32,8 +32,6 @@ A beautiful, full-stack web application for discovering and managing AI tools. B
 - **CORS** for cross-origin requests
 - **In-memory storage** for favorites (resets on restart)
 
-## 📱 Screenshots
-
 ### All Tools Page
 - Grid layout with beautiful tool cards
 - Search and filter functionality
@@ -61,7 +59,7 @@ A beautiful, full-stack web application for discovering and managing AI tools. B
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd ai-tools-discovery-app
+   cd AI-tool-hub
    ```
 
 2. **Install dependencies**
@@ -111,72 +109,6 @@ A beautiful, full-stack web application for discovering and managing AI tools. B
   ```
 - `DELETE /api/favorites/:id` - Remove a tool from favorites
 
-## 🎨 Design System
-
-### Colors
-- **Primary**: Indigo (600/700)
-- **Secondary**: Purple (600/700)
-- **Accent**: Red for favorites, Green for free tools
-- **Neutral**: Gray scale for text and backgrounds
-
-### Typography
-- **Headings**: Bold, large sizes for hierarchy
-- **Body**: Readable font sizes with proper line height
-- **Interactive**: Medium weight for buttons and links
-
-### Spacing
-- **8px base unit** for consistent spacing
-- **Generous padding** for comfortable touch targets
-- **Proper margins** for visual separation
-
-## 🔧 Project Structure
-
-```
-ai-tools-discovery-app/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── contexts/       # React contexts for state management
-│   │   ├── pages/          # Page components
-│   │   └── ...
-│   └── ...
-├── server/                 # Express backend
-│   ├── data/              # Sample data
-│   ├── server.js          # Main server file
-│   └── package.json
-└── README.md
-```
-
-## 🚀 Deployment
-
-### Backend Deployment
-The backend can be deployed to platforms like:
-- Heroku
-- Railway
-- Render
-- DigitalOcean App Platform
-
-### Frontend Deployment
-The frontend can be deployed to:
-- Netlify
-- Vercel
-- GitHub Pages
-- AWS S3 + CloudFront
-
-Remember to update the API base URL in the frontend code when deploying.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - AI tools data curated from popular AI platforms
@@ -185,5 +117,3 @@ This project is licensed under the MIT License.
 - Confetti animations by react-confetti
 
 ---
-
-Built with ❤️ for the AI community
